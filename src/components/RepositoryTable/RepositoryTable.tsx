@@ -98,9 +98,7 @@ export default function RepositoryTable() {
                 <TableCell>{node.stargazerCount}</TableCell>
                 <TableCell>{node.forkCount}</TableCell>
                 <TableCell>
-                  {/* <Button variant="contained" color="primary" > */}
                     <VisibilityIcon sx={{ ml: 1, color:'#1b78a0', cursor:'pointer' }} onClick={() => handleOpenModal(node)} titleAccess='View Details' />
-                  {/* </Button> */}
                 </TableCell>
               </TableRow>
             ))}
