@@ -14,8 +14,9 @@ export default function Header() {
             src={githubLogo}
             alt="GitHub Logo"
             sx={{
-              height: { xs: 30, sm: 35, md: 40 },
+              height: { xs: 50, sm: 55, md: 60 },
               width: 'auto',
+              marginTop:'1rem'
             }}
           />
         </Box>
